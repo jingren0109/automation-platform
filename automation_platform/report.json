@@ -1,0 +1,30 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "001.20230716210713",
+      "schemaName": "automation_project",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "001.20230716210713",
+          "description": "Create Project Table",
+          "type": "SQL",
+          "filepath": "/Users/jingren/Downloads/automation-platform/automation_platform/migrations/V001_20230716210713__Create_Project_Table.sql",
+          "executionTime": 16
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.20.1",
+      "database": null,
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `automation_project` may not be reproducible."
+      ],
+      "timestamp": "2023-07-16T22:09:03.236481",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}

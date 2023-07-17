@@ -1,0 +1,21 @@
+databaseType = "MySql"
+name = "automation_platform"
+id = "0c66c61c-cb32-48a8-b7d4-36d3fd62cab5"
+
+[flywayDesktop]
+developmentEnvironment = "development"
+shadowEnvironment = "shadow"
+schemaModel = "./schema-model"
+
+[redgateCompare]
+filterFile = "filter.rgf"
+
+[flyway]
+mixed = true
+outOfOrder = true
+locations = [ "filesystem:migrations" ]
+validateMigrationNaming = true
+
+[environments.target1]
+url = "jdbc:mysql://localhost:3306"
+schemas = [ "automation_project" ]
