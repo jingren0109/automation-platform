@@ -25,6 +25,84 @@
       "operation": "migrate",
       "exception": null,
       "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "001.20230716210713",
+      "targetSchemaVersion": "002.20230717200157",
+      "schemaName": "automation_project",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "002.20230717200157",
+          "description": "Create TestSuite Table",
+          "type": "SQL",
+          "filepath": "/Users/jingren/Downloads/automation-platform/automation_platform/migrations/V002_20230717200157__Create_TestSuite_Table.sql",
+          "executionTime": 97
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.20.1",
+      "database": null,
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `automation_project` may not be reproducible."
+      ],
+      "timestamp": "2023-07-17T21:02:45.168452",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "002.20230717200157",
+      "targetSchemaVersion": "003.20230717234251",
+      "schemaName": "automation_project",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "003.20230717234251",
+          "description": "Create TestCase Table",
+          "type": "SQL",
+          "filepath": "/Users/jingren/Downloads/automation-platform/automation_platform/migrations/V003_20230717234251__Create_TestCase_Table.sql",
+          "executionTime": 60
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.20.1",
+      "database": null,
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `automation_project` may not be reproducible."
+      ],
+      "timestamp": "2023-07-18T00:43:48.853260",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "003.20230717234251",
+      "targetSchemaVersion": "004.20230717234526",
+      "schemaName": "automation_project",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "004.20230717234526",
+          "description": "Create TestStep Table",
+          "type": "SQL",
+          "filepath": "/Users/jingren/Downloads/automation-platform/automation_platform/migrations/V004_20230717234526__Create_TestStep_Table.sql",
+          "executionTime": 33
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.20.1",
+      "database": null,
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `automation_project` may not be reproducible."
+      ],
+      "timestamp": "2023-07-18T00:45:55.565674",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
     }
   ]
 }

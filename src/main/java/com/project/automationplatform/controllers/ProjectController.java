@@ -1,7 +1,5 @@
 package com.project.automationplatform.controllers;
 
-import com.project.automationplatform.exception.exceptions.ResourceAlreadyExistsException;
-import com.project.automationplatform.exception.exceptions.ResourceNotFoundException;
 import com.project.automationplatform.models.Project;
 import com.project.automationplatform.services.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
